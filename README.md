@@ -11,6 +11,7 @@ indg-grip-challenge/
 │   └── requirements.txt
 ├── pulumi/
 │   └── __main__.py
+│   └── requirements.txt
 ```
 
 ## Prerequisites
