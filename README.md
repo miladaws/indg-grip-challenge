@@ -29,7 +29,8 @@ indg-grip-challenge/
 
 2. Install dependencies:
    ```
-   pip install -r requirements.txt
+   pip install -r pulumi/requirements.txt
+   pip install -r lambda/requirements.txt
    ```
 
 ## Deployment
@@ -46,7 +47,7 @@ indg-grip-challenge/
 
 3. Configure the AWS region:
    ```
-   pulumi config set aws:region eu-central-1
+   pulumi config set aws:region eu-central-1 # Replace your region
    ```
 
 4. Deploy the stack:
