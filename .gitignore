@@ -1,0 +1,18 @@
+# Virtual environment
+.venv/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Pulumi-related files
+.pulumi/
+pulumi-debug.log
+pulumi-state.json
+
+# Test-related files
+test/response.json
+test/*.png # Screenshot files
+
+# AWS credentials
+aws_credentials.env

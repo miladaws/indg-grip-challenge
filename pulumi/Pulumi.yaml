@@ -1,0 +1,11 @@
+name: indg-grip-challenge
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: INDG Grip challenge
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
